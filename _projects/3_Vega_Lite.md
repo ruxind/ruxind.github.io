@@ -22,6 +22,14 @@ This project will show how to use vega-lite to make plot in different methods.
 <vegachart schema-url="{{ site.baseurl }}/assets/json/vega_editor_plot1.json" style="width: 100%"></vegachart>
 <vegachart schema-url="{{ site.baseurl }}/assets/json/vega_editor_plot2.json" style="width: 100%"></vegachart>
 
+## 2. Direcly from vega-editor
+Include images stored in 'assets\pngs' folder with Markdown
+
+![a vegalite plot with interactive legend](/assets/pngs/Screenshot.png)
+
+## 3. Vega-lite from vega-specs to Json with Altair
+<vegachart schema-url="{{ site.baseurl }}/assets/json/chart1.json" style="width: 100%"></vegachart>
+
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
